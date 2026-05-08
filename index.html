@@ -1,29 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-<title>Engineering Graphics</title>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Engineering Graphics Using Scilab</title>
 
 <style>
 
 body{
 
-    font-family:Arial;
+    margin:0;
+    padding:0;
     background:#f2f2f2;
+    font-family:Arial, sans-serif;
     text-align:center;
+
+}
+
+header{
+
+    background:#003366;
+    color:white;
+    padding:30px;
 
 }
 
 h1{
 
-    color:blue;
+    margin:0;
+    font-size:42px;
 
 }
 
-video{
+.subtitle{
+
+    margin-top:10px;
+    font-size:20px;
+
+}
+
+.section{
+
+    padding:40px 20px;
+
+}
+
+.video-container{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+
+}
+
+.video-card{
+
+    background:white;
+    width:380px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+
+}
+
+.video-card h3{
+
+    color:#003366;
+
+}
+
+iframe{
 
     border-radius:15px;
+
+}
+
+.watch-button{
+
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#ff0000;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+
+}
+
+.watch-button:hover{
+
+    background:#cc0000;
+
+}
+
+.download-button{
+
+    display:inline-block;
+    padding:12px 25px;
+    background:#003366;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+
+}
+
+.download-button:hover{
+
+    background:#001f4d;
+
+}
+
+footer{
+
+    margin-top:40px;
+    background:#003366;
+    color:white;
+    padding:20px;
 
 }
 
@@ -33,15 +132,223 @@ video{
 
 <body>
 
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<header>
+
 <h1>Engineering Graphics Using Scilab</h1>
 
-<p>Parabola Animation</p>
+<div class="subtitle">
 
-<video controls width="400">
+AI + Engineering Simulations + Educational Videos
 
-<source src="videos/parabola.mp4" type="video/mp4">
+</div>
 
-</video>
+</header>
+
+<!-- ===================================================== -->
+<!-- ENGINEERING GRAPHICS VIDEOS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>Engineering Graphics Videos</h2>
+
+<div class="video-container">
+
+<!-- ================================================= -->
+<!-- VIDEO 1 -->
+<!-- ================================================= -->
+
+<div class="video-card">
+
+<h3>Parabola Construction</h3>
+
+<iframe width="350"
+height="600"
+src="https://www.youtube.com/embed/T6MpJZPBuiY"
+frameborder="0"
+allowfullscreen>
+
+</iframe>
+
+<br>
+
+<a class="watch-button"
+href="https://www.youtube.com/watch?v=T6MpJZPBuiY"
+target="_blank">
+
+Watch on YouTube
+
+</a>
+
+</div>
+
+<!-- ================================================= -->
+<!-- VIDEO 2 -->
+<!-- ================================================= -->
+
+<div class="video-card">
+
+<h3>Ellipse Construction</h3>
+
+<iframe width="350"
+height="600"
+src="https://www.youtube.com/embed/T6MpJZPBuiY"
+frameborder="0"
+allowfullscreen>
+
+</iframe>
+
+<br>
+
+<a class="watch-button"
+href="https://www.youtube.com/watch?v=T6MpJZPBuiY"
+target="_blank">
+
+Watch on YouTube
+
+</a>
+
+</div>
+
+<!-- ================================================= -->
+<!-- VIDEO 3 -->
+<!-- ================================================= -->
+
+<div class="video-card">
+
+<h3>Hyperbola Construction</h3>
+
+<iframe width="350"
+height="600"
+src="https://www.youtube.com/embed/T6MpJZPBuiY"
+frameborder="0"
+allowfullscreen>
+
+</iframe>
+
+<br>
+
+<a class="watch-button"
+href="https://www.youtube.com/watch?v=T6MpJZPBuiY"
+target="_blank">
+
+Watch on YouTube
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- AI ENGINEERING VIDEOS -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>AI Engineering Simulations</h2>
+
+<div class="video-container">
+
+<!-- ================================================= -->
+<!-- VIDEO 4 -->
+<!-- ================================================= -->
+
+<div class="video-card">
+
+<h3>Finite Element Analysis</h3>
+
+<iframe width="350"
+height="600"
+src="https://www.youtube.com/embed/T6MpJZPBuiY"
+frameborder="0"
+allowfullscreen>
+
+</iframe>
+
+<br>
+
+<a class="watch-button"
+href="https://www.youtube.com/watch?v=T6MpJZPBuiY"
+target="_blank">
+
+Watch on YouTube
+
+</a>
+
+</div>
+
+<!-- ================================================= -->
+<!-- VIDEO 5 -->
+<!-- ================================================= -->
+
+<div class="video-card">
+
+<h3>CFD Simulation</h3>
+
+<iframe width="350"
+height="600"
+src="https://www.youtube.com/embed/T6MpJZPBuiY"
+frameborder="0"
+allowfullscreen>
+
+</iframe>
+
+<br>
+
+<a class="watch-button"
+href="https://www.youtube.com/watch?v=T6MpJZPBuiY"
+target="_blank">
+
+Watch on YouTube
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- DOWNLOAD SECTION -->
+<!-- ===================================================== -->
+
+<div class="section">
+
+<h2>Download Scilab Programs</h2>
+
+<a class="download-button"
+href="https://github.com/"
+target="_blank">
+
+Download Source Codes from GitHub
+
+</a>
+
+</div>
+
+<!-- ===================================================== -->
+<!-- FOOTER -->
+<!-- ===================================================== -->
+
+<footer>
+
+<h3>Engineering Graphics + AI Simulation Platform</h3>
+
+<p>
+
+Developed using Scilab for Engineering Education
+
+</p>
+
+</footer>
 
 </body>
 
